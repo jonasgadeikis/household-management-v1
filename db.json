@@ -1,0 +1,316 @@
+{
+  "tax-categories": [
+    {
+      "id": 1,
+      "name": "Water",
+      "identifier": "water",
+      "unit_price_with_vat": 1.36,
+      "fixed_price_with_vat": 1.08
+    },
+    {
+      "id": 2,
+      "name": "Gas",
+      "identifier": "gas",
+      "unit_price_with_vat": 1.56,
+      "fixed_price_with_vat": 3.99
+    },
+    {
+      "id": 3,
+      "name": "Electricity",
+      "identifier": "electricity",
+      "unit_price_with_vat": 0.33,
+      "fixed_price_with_vat": 0
+    },
+    {
+      "id": 4,
+      "name": "Trash",
+      "identifier": "trash",
+      "unit_price_with_vat": 6.6,
+      "fixed_price_with_vat": 0
+    },
+    {
+      "id": 5,
+      "name": "Internet",
+      "identifier": "internet",
+      "unit_price_with_vat": 15.9,
+      "fixed_price_with_vat": 0
+    },
+    {
+      "id": 6,
+      "name": "Bank services",
+      "identifier": "bank_services",
+      "unit_price_with_vat": 1.99,
+      "fixed_price_with_vat": 0
+    }
+  ],
+  "expenses": [
+    {
+      "uid": "2d1436e73959",
+      "id": 1,
+      "name": "Cleaners",
+      "amount": 4.5,
+      "username": "User 1",
+      "settled": true
+    },
+    {
+      "uid": "5e9c96baf293b",
+      "id": 2,
+      "name": "Batteries",
+      "amount": 5,
+      "username": "User 1",
+      "settled": true
+    },
+    {
+      "uid": "6655914a1b04f",
+      "name": "Skalbiklis",
+      "amount": 5.6,
+      "username": "User 1",
+      "settled": true,
+      "id": 3
+    },
+    {
+      "uid": "40ca66eb893cf",
+      "name": "haha",
+      "amount": 23,
+      "username": "User 1",
+      "settled": true,
+      "id": 4
+    },
+    {
+      "uid": "bdfcfaae73da2",
+      "name": "haha 2",
+      "amount": 12,
+      "username": "User 1",
+      "settled": true,
+      "id": 5
+    },
+    {
+      "uid": "5e3c6c8a9a52",
+      "name": "haha 3",
+      "amount": 4.55,
+      "username": "User 1",
+      "settled": true,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User 1",
+      "active": true,
+      "roles": []
+    },
+    {
+      "id": 2,
+      "name": "User 2",
+      "active": true,
+      "roles": []
+    },
+    {
+      "id": 3,
+      "name": "User 3",
+      "active": true,
+      "roles": []
+    }
+  ],
+  "monthly-taxes": [
+    {
+      "date": "2022-08",
+      "taxes": [
+        {
+          "uid": "e4c0624a31eef",
+          "category": {
+            "uid": "c6a0968d67da1",
+            "id": 1,
+            "name": "Water",
+            "identifier": "water",
+            "unit": "m<sup>3</sup>",
+            "unitPrice": 1.36,
+            "fixedPrice": 1.08
+          },
+          "previousMonthReading": 340,
+          "currentMonthReading": 346,
+          "finalPrice": 9.24
+        },
+        {
+          "uid": "bc820554cae7c",
+          "category": {
+            "uid": "380edf5937b8c",
+            "id": 2,
+            "name": "Gas",
+            "identifier": "gas",
+            "unit": "m<sup>3</sup>",
+            "unitPrice": 1.56,
+            "fixedPrice": 3.99
+          },
+          "previousMonthReading": 1801,
+          "currentMonthReading": 1815,
+          "finalPrice": 25.83
+        },
+        {
+          "uid": "d56d0b1a5e801",
+          "category": {
+            "uid": "52debf58e113a",
+            "id": 3,
+            "name": "Electricity",
+            "identifier": "electricity",
+            "unit": "kW/h",
+            "unitPrice": 0.33,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": 13266,
+          "currentMonthReading": 13390,
+          "finalPrice": 40.92
+        },
+        {
+          "uid": "e23b8b17a9633",
+          "category": {
+            "uid": "5033c875c73a1",
+            "id": 4,
+            "name": "Trash",
+            "identifier": "trash",
+            "unit": "",
+            "unitPrice": 6.6,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": null,
+          "currentMonthReading": null,
+          "finalPrice": 6.6
+        },
+        {
+          "uid": "47027ce0a9cef",
+          "category": {
+            "uid": "3ed4c878737c6",
+            "id": 5,
+            "name": "Internet",
+            "identifier": "internet",
+            "unit": "",
+            "unitPrice": 15.9,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": null,
+          "currentMonthReading": null,
+          "finalPrice": 15.9
+        },
+        {
+          "uid": "e6d8a287c20ff",
+          "category": {
+            "uid": "fd43d12749cca",
+            "id": 6,
+            "name": "Bank services",
+            "identifier": "bank_services",
+            "unit": "",
+            "unitPrice": 1.99,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": null,
+          "currentMonthReading": null,
+          "finalPrice": 1.99
+        }
+      ],
+      "otherTaxesAmount": 25.33,
+      "totalTaxesPrice": 125.81,
+      "totalTaxesPerPersonPrice": 42,
+      "id": 1
+    },
+    {
+      "date": "2022-09",
+      "taxes": [
+        {
+          "uid": "ef2188fa53d65",
+          "category": {
+            "uid": "c6a0968d67da1",
+            "id": 1,
+            "name": "Water",
+            "identifier": "water",
+            "unit": "m<sup>3</sup>",
+            "unitPrice": 1.36,
+            "fixedPrice": 1.08
+          },
+          "previousMonthReading": 346,
+          "currentMonthReading": 352,
+          "finalPrice": 9.24
+        },
+        {
+          "uid": "19118ea695d1f",
+          "category": {
+            "uid": "380edf5937b8c",
+            "id": 2,
+            "name": "Gas",
+            "identifier": "gas",
+            "unit": "m<sup>3</sup>",
+            "unitPrice": 1.56,
+            "fixedPrice": 3.99
+          },
+          "previousMonthReading": 1815,
+          "currentMonthReading": 1824,
+          "finalPrice": 18.03
+        },
+        {
+          "uid": "03c6dfebed455",
+          "category": {
+            "uid": "52debf58e113a",
+            "id": 3,
+            "name": "Electricity",
+            "identifier": "electricity",
+            "unit": "kW/h",
+            "unitPrice": 0.33,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": 13390,
+          "currentMonthReading": 13494,
+          "finalPrice": 34.32
+        },
+        {
+          "uid": "18a48404e7b04",
+          "category": {
+            "uid": "5033c875c73a1",
+            "id": 4,
+            "name": "Trash",
+            "identifier": "trash",
+            "unit": "",
+            "unitPrice": 6.6,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": null,
+          "currentMonthReading": null,
+          "finalPrice": 6.6
+        },
+        {
+          "uid": "33ffea513b781",
+          "category": {
+            "uid": "3ed4c878737c6",
+            "id": 5,
+            "name": "Internet",
+            "identifier": "internet",
+            "unit": "",
+            "unitPrice": 15.9,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": null,
+          "currentMonthReading": null,
+          "finalPrice": 15.9
+        },
+        {
+          "uid": "f2271fb2f8c88",
+          "category": {
+            "uid": "fd43d12749cca",
+            "id": 6,
+            "name": "Bank services",
+            "identifier": "bank_services",
+            "unit": "",
+            "unitPrice": 1.99,
+            "fixedPrice": 0
+          },
+          "previousMonthReading": null,
+          "currentMonthReading": null,
+          "finalPrice": 1.99
+        }
+      ],
+      "otherTaxesAmount": 26.39,
+      "totalTaxesPrice": 112.47,
+      "totalTaxesPerPersonPrice": 37,
+      "id": 2
+    }
+  ]
+}
